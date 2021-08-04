@@ -27,6 +27,28 @@ That means that trucks 1 and 3 should be charged on charger 1 and truck 4 should
 Approach taken
 The solution for the above mentioned problem can be achieved in more than one approach and all these approach will give you the right results but implementing the best scheduling algorithm based on time is the approach we are looking to implement here. The code was tested with following algorithms 1. First Come First Serve, 2. Shortest Job First, 3. Shortest remaining time first and based on the best time results the right algorithm has been chosen for implementation. The algorithm we choose for this implementation is SHORTEST REMAINING TIME FIRST algorithm.
 
+### Test input:
+```
+----------Following Charging ports are available --------
+The charger with unique id = C001 with charging rate of 50.0
+The charger with unique id = C002 with charging rate of 50.0
+----------Following trucks are available for charging--------
+The truck with unique id = T001 with battery capacity of 40.0 with current level at 25.0
+The truck with unique id = T002 with battery capacity of 40.0 with current level at 50.0
+The truck with unique id = T003 with battery capacity of 40.0 with current level at 75.0
+The truck with unique id = T004 with battery capacity of 40.0 with current level at 90.0
+````
+
+### Test output: 
+```
+Results : 
+The truck with unique id = T001 is charging at station = C001
+The truck with unique id = T003 is charging at station = C001
+The truck with unique id = T004 is charging at station = C001
+The truck with unique id = T002 is charging at station = C002
+
+````
+
 ## Getting Started
 
 # Running the build and tests
