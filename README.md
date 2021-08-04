@@ -29,12 +29,8 @@ The solution for the above mentioned problem can be achieved in more than one ap
 
 ## Getting Started
 
-### Installing
-```
-Please unzip the folders attached and use any tools of your choice to import the code.
-```
-
 # Running the build and tests
+
 Demo-able unit test to verify functionality & test the integrity of the solution provided.
 
 #### Unit Test
